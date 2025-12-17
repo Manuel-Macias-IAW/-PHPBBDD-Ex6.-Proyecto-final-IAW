@@ -9,12 +9,21 @@ $dbname = "bbdd_mmm_mockaroo";
 
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password);
 
-// Check connection
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
-echo "Connected successfully";
+
+
+try {
+    $db_selected = mysqli_select_db($conn, $dbname);
+    
+    if (!$db_selected) {
+
+    }
+} catch (Exception $e) {
+}
+
 ?>
 
