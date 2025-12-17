@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
 
 <?php
-include("db_connect.php");
+include("config.php");
 
 // Ruta del archivo CSV
 $csv_file = 'C:\xampp\htdocs\bd\MOCK_DATA.csv';

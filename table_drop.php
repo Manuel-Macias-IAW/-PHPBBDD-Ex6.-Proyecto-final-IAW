@@ -2,7 +2,7 @@
 <?php include("sesion.php"); ?>
 
 <?php
-include("db_connect.php");
+include("config.php");
 
 // sql to delete table
 $sql = "DROP TABLE IF EXISTS client_airport";

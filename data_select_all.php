@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
 
 <?php
-include("db_connect.php");
+include("config.php");
 
 $sql = "SELECT id, first_name, last_name, email, airport_code FROM client_airport";
 $result = mysqli_query($conn, $sql);

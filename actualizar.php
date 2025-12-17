@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
 
 <?php
-include("db_connect.php");
+include("config.php");
 ?>
 
 <h1>Update User Last Name</h1>

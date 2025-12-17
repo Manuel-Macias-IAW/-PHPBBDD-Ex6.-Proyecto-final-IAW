@@ -5,11 +5,11 @@
 $servername = "localhost";
 $username = "mmm";
 $password = "1234";
-$dbname = "bbdd_mmm_mockaroo";
+
 
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password);
 
 // Check connection
 if (!$conn) {

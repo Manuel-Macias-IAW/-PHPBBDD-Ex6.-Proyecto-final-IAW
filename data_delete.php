@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
  
  <?php
-include("db_connect.php");
+include("config.php");
 
 // sql to delete a record
 $sql = "DELETE FROM client_airport WHERE id=3";

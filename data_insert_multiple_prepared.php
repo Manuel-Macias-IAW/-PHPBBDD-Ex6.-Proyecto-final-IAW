@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
 
 <?php
-include("db_connect.php");
+include("config.php");
 
 
 $stmt = mysqli_prepare($conn, "INSERT INTO client_airport (first_name, last_name, email, gender, city, airport_code) VALUES (?, ?, ?, ?, ?, ?)");

@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
 
 <?php
-include("db_connect.php");
+include("config.php");
 
 $sql = "UPDATE client_airport SET last_name='Ramirez' WHERE id=2";
 

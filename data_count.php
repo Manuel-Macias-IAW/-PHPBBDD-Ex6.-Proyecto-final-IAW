@@ -1,9 +1,8 @@
-<?php include ("cabecera.html"); ?>
 <?php include("sesion.php"); ?>
 
 <?php
 
-include("db_connect.php");
+include("config.php");
 
 
 //Lanzamos la consulta

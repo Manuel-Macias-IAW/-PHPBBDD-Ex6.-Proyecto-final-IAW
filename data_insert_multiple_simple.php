@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
  
 <?php
-include("db_connect.php");
+include("config.php");
 
 $sql = "INSERT INTO client_airport (first_name, last_name, email, gender, city, airport_code)
 VALUES ('Luis', 'Ramirez', 'luis@example.com', 'Male', 'Sevilla', 'SVQ');";

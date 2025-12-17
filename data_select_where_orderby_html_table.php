@@ -1,7 +1,7 @@
 <?php include("sesion.php"); ?>
 
 <?php
-include("db_connect.php");
+include("config.php");
 
 // Lanzamos la consulta 
 $sql = "SELECT id, first_name, last_name, email, airport_code FROM client_airport ORDER BY last_name";
